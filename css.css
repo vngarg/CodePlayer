@@ -4,7 +4,7 @@ body{
 }
 #header{
     background-color:#EEEEEE;
-    width:100%;
+    width:99.2%;
     padding:5px;
     height:40px;
 }
@@ -24,7 +24,7 @@ body{
     float:left;
     font-weight: bold;
     font-size:160%;
-    padding:4px 7px;
+    padding:4px 0px;
     font-family: sans-serif
 }
 #html{
@@ -35,4 +35,23 @@ body{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-right:1px solid gray;
+}
+.active{
+    background-color:#E8F2FF;
+}
+.highlightedButton{
+    background-color:grey
+}
+textarea{
+    resize: none;
+    border-top:none;
+    border-bottom:none;
+    border-color:gray;
+}
+.panel{
+    width:50%;
+    float:left;
+}
+iframe{
+    border:none;
 }
