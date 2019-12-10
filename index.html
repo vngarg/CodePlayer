@@ -18,8 +18,10 @@
         </div>
     </div>
     <div id="bodyContainer">
-        <textarea id="htmlPanel" class="panel">HELLO WORLD</textarea>
-        <iframe id="outputPanel" class="panel"></iframe>
+        <textarea id="htmlPanel" class="panel"><p id="HTMLpanel">HELLO WORLD</p></textarea>
+        <textarea id="cssPanel" class="panel hidden">p{color:green}</textarea>
+        <textarea id="javascriptPanel" class="panel hidden">document.getElementById("HTMLpanel").innerHTML="YO YO MAN"</textarea>
+        <iframe id="outputPanel" class="panel">OUTPUT</iframe>
     </div>
     <script type="text/javascript" src="jquery.js"></script>
 </body>
