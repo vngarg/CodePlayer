@@ -51,7 +51,11 @@ textarea{
 .panel{
     width:50%;
     float:left;
+    border-left: none;
 }
 iframe{
     border:none;
+}
+.hidden{
+    display: none;
 }
